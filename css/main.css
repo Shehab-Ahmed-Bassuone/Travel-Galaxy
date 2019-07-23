@@ -25,7 +25,10 @@ body {
   border-color: #ddd;
   z-index: 1;
 }
-
+a:link{
+  text-decoration: none;
+  color: #fffaf0;
+}
 ul {
   margin-left: 700px
 }
