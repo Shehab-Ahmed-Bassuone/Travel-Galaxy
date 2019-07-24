@@ -2,36 +2,31 @@
 <html>
 
 <head>
-
+ <link href="css/registration page style.css" rel='stylesheet' type='text/css' />
 </head>
 <body>
+  <form>
+    <div class="box">
     <h1>Sign up</h1>
-<form>
-         get a 10% discount when you sign up now <br>
-Firstname:<input type="text" id="firstname_area"><br>
-Lastname:<input type="text" id="lastname_area"><br>
-Email:<input type="email" id="email_area"> <br>
-password:<input type="password" id="password_area"><br>
-Rewrite password:<input type="password" id="rewrite_password_area"><br>
-Mobile number:<input type="number" id="mobile_number_area"><br>
-Visa number:<input type="number" id="visa_number_area"><br>
-CVV:<input type="number" id="cvv_area"><br>
-Expiry date:<input type="number" id="expirydate_area"><br>
 
-<input type="checkbox">I agree to all statements of <a href="test.html"> terms of condtions</a> <br>
+<input type="text" id="firstname_area" placeholder="FirstName"><br>
+<input type="text" id="lastname_area" placeholder="Lastname"><br>
+<input type="text" id="email_area" placeholder="Email"><br>
+<input type="password" id="password_area" placeholder="password"><br>
+<input type="password" id="rewrite_password_area" placeholder="Rewrite password"><br>
+<input type="text" id="mobile_number_area" placeholder="Mobile number"><br>
+<input type="text" id="visa_number_area" placeholder="Visa number"><br>
+<input type="text" id="cvv_area" placeholder="CVV"><br>
+<input type="text" id="expirydate_area" placeholder="Expiry date"><br>
 
-<input type="button" value="sign up" onclick="register_button()">
+<label><input type="checkbox" name="checkbox" value="value"> I agree to<a href="test.html" id="cond"> terms of condtions</a></label> <br>
 
+<input type="button" value="sign up" onclick="register_button()" id="btn">
+</div>
 </form>
-    
-
 
 </body>
 
 <script src="registration page.js"></script>
-
-
-
-
 
 </html>
