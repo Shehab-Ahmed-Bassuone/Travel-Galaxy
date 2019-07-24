@@ -2,8 +2,8 @@
 let customer = new Object;
 var arr=new Array(500);
 var cnt=0;
-var fs=require('fs');
-fs.ReadFileSync();
+
+
 
 function get_text_from_elemnts(){
   customer.firstname= document.getElementById("firstname_area").value;
