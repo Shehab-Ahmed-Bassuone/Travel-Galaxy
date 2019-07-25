@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,6 @@
 body {
   background-image: url("../resources/main.jpg");
   background-attachment: fixed;
-
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,7 +16,7 @@ body {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
-  height: calc(100% + 650px);
+  height: calc(100% + 680px);
   z-index: -1;
 }
 
@@ -45,10 +43,12 @@ nav ul li {
   display: inline-block;
   float: left;
 }
+
 .customize-logo-link {
   color: #fff;
   text-decoration: none;
 }
+
 .logo-text {
   display: inline;
   float: left;
@@ -93,43 +93,89 @@ nav li.book {
   font-weight: bold;
 }
 
-.logo-img{
-margin-left: 550px;
+.logo-img {
+  margin-left: 550px;
 }
 
-form{
+form {
   width: 100%;
   float: right;
   position: relative;
-margin-top: 40px;
+  margin-top: 40px;
 }
 
-.sub-container{
+.sub-container {
   float: left;
   list-style: none;
   position: relative;
-
 }
 
-.container-box-main{
-  background:white;
-  border-radius:6px;
+.container-box-main {
+  background: white;
+  border-radius: 6px;
   border: #2980b9 4px solid;
   width: 300px;
-  height:490px;
+  height: 490px;
   display: inline-block;
   float: right;
   margin-left: 60px;
   margin-top: 0px;
-
 }
 
-.packages-imgs{
+.packages-imgs {
   width: 290px;
-  height:200px;
+  height: 200px;
   background-position: center;
   border-color: #2980b9;
   border-width: 2px;
   border-style: outset;
   margin: 5px 5px 5px 3px;
+}
+
+/* main info*/
+.text-1 {
+  font-family: sans-serif;
+  margin-left: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* for more info parag */
+.text-2 {
+  color: white;
+  margin-left: 75px;
+  margin-top: 7px;
+}
+
+/* contact us*/
+.text-3 {
+  margin-left: 110px;
+}
+
+/*book*/
+.text-4 {
+  background: #047ffc;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 10px 25px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-align: center;
+}
+
+label {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.discount {
+  font-size: 35px;
+  margin-left: 270px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  color: white;
+  font-weight: lighter;
+  font-family: serif;
 }
