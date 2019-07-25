@@ -97,7 +97,7 @@ input[type="checkbox"] {
 
 .background-obacity {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: calc(100% + 30px);
   background-size: cover;
