@@ -38,23 +38,23 @@
       </ul>
     </nav>
   </div>
-  <form>
+  <form name="inputForm">
     <div class="box">
     <h1 class="sign-up">Sign up</h1>
 
-<input type="text" id="firstname_area" placeholder="FirstName"><br>
-<input type="text" id="lastname_area" placeholder="Lastname"><br>
-<input type="text" id="email_area" placeholder="Email"><br>
-<input type="password" id="password_area" placeholder="password"><br>
-<input type="password" id="rewrite_password_area" placeholder="Rewrite password"><br>
-<input type="text" id="mobile_number_area" placeholder="Mobile number"><br>
-<input type="text" id="visa_number_area" placeholder="Visa number"><br>
-<input type="text" id="cvv_area" placeholder="CVV"><br>
-<input type="text" id="expirydate_area" placeholder="Expiry date"><br>
+<input type="text" id="firstname_area" name = "fname" placeholder="FirstName"><br>
+<input type="text" id="lastname_area" name="lname" placeholder="Lastname"><br>
+<input type="text" id="email_area" name="email" placeholder="Email"><br>
+<input type="password" id="password_area" name="password1" placeholder="password"><br>
+<input type="password" id="rewrite_password_area" name="password2" placeholder="Rewrite password"><br>
+<input type="text" id="mobile_number_area" name="mobile" placeholder="Mobile number"><br>
+<input type="text" id="visa_number_area" name="VN" placeholder="Visa number"><br>
+<input type="text" id="cvv_area" name="cvv" placeholder="CVV"><br>
+<input type="text" id="expirydate_area" name="exp" placeholder="Expiry date"><br>
 
 <label><input type="checkbox" name="checkbox" value="value"> I agree to<a href="test.html" id="cond"> terms of condtions</a></label> <br>
 
-<input type="button" value="sign up" onclick="register_button()" id="btn">
+<input type="button" value="sign up" onclick="validate()" id="btn">
 </div>
  <!-- <p>Already have an account ? <u><a class="click-here" href="login.html"> Login !</a></u></p> --> <!-- need modifiy-->
 </form>

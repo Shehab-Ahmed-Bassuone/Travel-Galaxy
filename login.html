@@ -7,6 +7,7 @@
   <!-- files import -->
   <link href="css/login.css" rel='stylesheet' type='text/css' /> <!-- css file -->
   <!-- //files import -->
+  <script src="js/login.js"></script>
 
 </head>
 
@@ -44,13 +45,13 @@
       </ul>
     </nav>
   </div>
-  <form >
+  <form name="loginForm" >
     <div class= "box">
       <h1> Login </h1>
-      <input type="email" placeholder="Email" class="email" />
+      <input type="email" name="loginEmail" placeholder="Email" class="email" />
       <br>
-      <input type="password" placeholder="Password" class="password" />
-      <a href="#"> <div class="button1"> Sign In </div> </a>
+      <input type="password" name="loginPassword" placeholder="Password" class="password" />
+      <a href="#"> <div class="button1" onclick="validate()"> Sign In </div> </a>
       <a href="signup.html"> <div class="button2"> Sign Up </div> </a>
     </div>
     <p>Forgot your password? <u><a class="click-here" href="#">Click Here!</a></u></p>
