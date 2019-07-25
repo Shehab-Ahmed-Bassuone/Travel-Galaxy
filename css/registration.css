@@ -30,7 +30,7 @@ p {
   border: #2980b9 4px solid;
 }
 
-input[type="text"], input[type="password"], input[type="button"] {
+input[type="text"], input[type="password"], input[type="button"] ,input[type="email"],input[type="number"],input[type="submit"]{
   background: #ecf0f1;
   border: #ccc 1px solid;
   border-bottom: #ccc 2px solid;
