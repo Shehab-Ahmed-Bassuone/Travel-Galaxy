@@ -41,5 +41,5 @@ if (!empty($firstname)) {
  echo "All field are required";
  die();
 }
-//<input type="button" value="sign up" onclick="validate()" id="btn">
+
 ?>
