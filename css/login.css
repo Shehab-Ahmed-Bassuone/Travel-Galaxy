@@ -33,7 +33,7 @@ h1{
   border-bottom: #ccc 2px solid;
   padding: 8px;
   width:250px;
-  color:#AAAAAA;
+  color:black;
   margin-top:10px;
   margin-bottom: 7px;
   font-size:1em;
@@ -47,6 +47,7 @@ h1{
   padding: 8px;
   width:250px;
   font-size:1em;
+  color: black;
 }
 
 .button1{
