@@ -30,14 +30,26 @@ if (!empty($firstname)) {
       $stmt = $conn->prepare($INSERT);
       $stmt->bind_param("ssssii", $password,$email,$firstname,$lastname,$phone,$visanum);
       $stmt->execute();
-      echo "New record inserted sucessfully";
-     } else {
-      echo "Someone already register using this email";
+      
+      echo "<script> alert('Successful login you can now sign in');
+      location.replace('../registration.html');
+      
+      </script>";
+    } else {
+        echo "<script> alert('This email is used by another customer please enter another email'); 
+        location.replace('../registration.html');
+        
+        </script>";
+
+
+
+      //echo "Someone already register using this email";
      }
      $stmt->close();
      $conn->close();
     }
 } else {
+    
  echo "All field are required";
  die();
 }

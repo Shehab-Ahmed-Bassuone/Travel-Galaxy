@@ -20,13 +20,34 @@
          $stmt->execute();
          $stmt->bind_result($email);
          $stmt->store_result();
+         
          $rnum = $stmt->num_rows;
          if ($rnum==0) {
-          echo "not found";
+            echo "<script> alert('invalid password or email please enter another one'); 
+            location.replace('../login.html');
+            
+            </script>";
+            $stmt->close();
          } else {
-          echo "email is found";
+            $stmt->close();
+
+            $SELECT2 = "SELECT firstname From register Where email = ? ";
+            $stmt2=$conn->prepare($SELECT2);
+            $stmt2->bind_param("s", $email);
+            $stmt2->execute();
+         $stmt2->bind_result($email);
+         
+         $result= $stmt2->get_result();
+         $row = mysqli_fetch_row($result); 
+            $name = $row[0]; 
+           
+           echo "<script> alert(\" Welcome $name\"); 
+            location.replace('../login.html');
+            
+            </script>";
+           
+            $stmt2->close();
          }
-         $stmt->close();
          $conn->close();
         }
     } else {

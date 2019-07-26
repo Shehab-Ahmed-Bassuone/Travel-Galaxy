@@ -71,3 +71,8 @@ if(valid)
  register();
 return valid;
 }
+function success_register(){
+
+  alert("Successful registration you can now sign in");
+
+}
