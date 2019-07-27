@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../resources/japan-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.background-obacity {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.click-here {
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 4px;
+  color: white;
+}
+
+.click-here:hover {
+  color: blue;
+}
+
+.header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #b1b1b1;
+  width: 100%;
+  height: 84px;
+}
+
+nav {
+  margin-right: 200px;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  position: relative;
+  margin-top: 27px;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+}
+
+.customize-logo-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-text {
+  display: inline;
+  float: left;
+  display: initial;
+  margin-left: 200px;
+  letter-spacing: 3px;
+  color: #fff;
+  padding: 0px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: cursive;
+}
+
+nav a {
+  color: #ddd;
+  letter-spacing: 1px;
+  padding-left: 0;
+  padding-right: 0;
+  padding: 10px 13px;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+nav li.book {
+  background: #047ffc;
+  padding: 10px 25px;
+  color: white;
+  display: block;
+  margin-top: -7px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.color-override {
+  color: white;
+  font-weight: bold;
+}
+
+.github {
+  background-color: white;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 1px;
+}
+
+.form {
+  height: 240px;
+  width: 1450px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  margin: 290px 50px 0px 40px;
+}
+
+.sub-form {
+  display: inline-block;
+  height: 240px;
+  width: 350px;
+  border-right-width: 2px;
+  border-right-color: white;
+  border-right-style: solid;
+  margin: 0px 0px 0px 20px;
+}
+
+.main-text {
+  color: white;
+  font-weight: lighter;
+  font-weight: lighter;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-size: 45px;
+  margin: 10px 0px 0px 480px;
+}
+
+.text-1 {
+  color: white;
+  text-decoration: underline;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.text-2 {
+  color: white;
+  font-weight: lighter;
+}
+
+img {
+  height: 110px;
+  margin-left: 94px;
+  margin-top: 15px;
+}
