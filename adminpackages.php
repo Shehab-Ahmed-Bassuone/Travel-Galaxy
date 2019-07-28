@@ -67,11 +67,11 @@
           <div class="container-box-main">
             <img src="resources/brazil.jpg" class="packages-imgs" alt="First Package">
             <br><br>
-            <div class="text-1"> Destination : <label><mark style="color:white;background-color:#047ffc"> Brazil</mark></label></div>
+            <div class="text-1"> Destination : <label id="lb_ds_1"><mark style="color:white;background-color:#047ffc"> Brazil</mark></label></div>
             <br />
-            <div class="text-1"> Duration :<label><mark style="color:white;background-color:#047ffc"> 5 Days </mark></label> </div>
+            <div class="text-1"> Duration :<label id="lb_du_1"><mark style="color:white;background-color:#047ffc"> 5 Days </mark></label> </div>
             <br />
-            <div class="text-1"> Cost : <label><mark style="color:white;background-color:#047ffc"> 500 $ </mark></label> </div>
+            <div class="text-1"> Cost : <label id="lb_co_1"><mark style="color:white;background-color:#047ffc"> 500 $ </mark></label> </div>
 
             <div class="admin">
               <input type="text" name="destination1" placeholder="Destination">
@@ -85,11 +85,11 @@
           <div class="container-box-main">
             <img src="resources/australia.jpg" class="packages-imgs" alt="Second Package" />
             <br><br>
-            <div class="text-1"> Destination : <label><mark style="color:white;background-color:#047ffc"> Australia</mark></label></div>
+            <div class="text-1"> Destination : <label id="lb_ds_2"><mark style="color:white;background-color:#047ffc"> Australia</mark></label></div>
             <br />
-            <div class="text-1"> Duration :<label><mark style="color:white;background-color:#047ffc"> 6 Days </mark></label> </div>
+            <div class="text-1"> Duration :<label id="lb_du_2"><mark style="color:white;background-color:#047ffc"> 6 Days </mark></label> </div>
             <br />
-            <div class="text-1"> Cost : <label><mark style="color:white;background-color:#047ffc"> 900 $ </mark></label> </div>
+            <div class="text-1"> Cost : <label id="lb_co_2"><mark style="color:white;background-color:#047ffc"> 900 $ </mark></label> </div>
 
             <div class="admin">
               <input type="text" name="destination2" placeholder="Destination">
@@ -104,11 +104,11 @@
           <div class="container-box-main">
             <img src="resources/rome.jpg" class="packages-imgs" alt="Third Package" />
             <br><br>
-            <div class="text-1"> Destination : <label><mark style="color:white;background-color:#047ffc"> Rome</mark></label></div>
+            <div class="text-1"> Destination : <label id="lb_ds_3"><mark style="color:white;background-color:#047ffc"> Rome</mark></label></div>
             <br />
-            <div class="text-1"> Duration :<label><mark style="color:white;background-color:#047ffc"> 10 Days </mark></label> </div>
+            <div class="text-1"> Duration :<label id="lb_du_3"><mark style="color:white;background-color:#047ffc"> 10 Days </mark></label> </div>
             <br />
-            <div class="text-1"> Cost : <label><mark style="color:white;background-color:#047ffc"> 1100 $ </mark></label> </div>
+            <div class="text-1"> Cost : <label id="lb_co_3"><mark style="color:white;background-color:#047ffc"> 1100 $ </mark></label> </div>
 
             <div class="admin">
               <input type="text" name="destination3" placeholder="Destination">
@@ -123,11 +123,11 @@
           <div class="container-box-main">
             <img src="resources/greece.jpg" class="packages-imgs" alt="Forth Package" />
             <br><br>
-            <div class="text-1"> Destination : <label><mark style="color:white;background-color:#047ffc"> Greece</mark></label></div>
+            <div class="text-1"> Destination : <label id="lb_ds_4"><mark style="color:white;background-color:#047ffc"> Greece</mark></label></div>
             <br />
-            <div class="text-1"> Duration :<label><mark style="color:white;background-color:#047ffc"> 7 Days </mark></label> </div>
+            <div class="text-1"> Duration :<label id="lb_du_4"><mark style="color:white;background-color:#047ffc"> 7 Days </mark></label> </div>
             <br />
-            <div class="text-1"> Cost : <label><mark style="color:white;background-color:#047ffc"> 1000 $ </mark></label> </div>
+            <div class="text-1"> Cost : <label id="lb_co_4"><mark style="color:white;background-color:#047ffc"> 1000 $ </mark></label> </div>
 
             <div class="admin">
               <input type="text" name="destination4" placeholder="Destination">
@@ -147,11 +147,11 @@
           <div class="container-box-main">
             <img src="resources/amsterdam.jpg" class="packages-imgs" alt="First Package">
             <br><br>
-            <div class="text-1"> Destination : <label><mark style="color:white;background-color:#047ffc"> Amsterdam</mark></label></div>
+            <div class="text-1"> Destination : <label id="lb_ds_5"><mark style="color:white;background-color:#047ffc"> Amsterdam</mark></label></div>
             <br />
-            <div class="text-1"> Duration :<label><mark style="color:white;background-color:#047ffc"> 20 Days </mark></label> </div>
+            <div class="text-1"> Duration :<label id="lb_du_5"><mark style="color:white;background-color:#047ffc"> 20 Days </mark></label> </div>
             <br />
-            <div class="text-1"> Cost : <label><mark style="color:white;background-color:#047ffc"> 4100 $ </mark></label> </div>
+            <div class="text-1"> Cost : <label id="lb_co_5"><mark style="color:white;background-color:#047ffc"> 4100 $ </mark></label> </div>
 
             <div class="admin">
               <input type="text" name="destination5" placeholder="Destination">
@@ -165,11 +165,11 @@
           <div class="container-box-main">
             <img src="resources/spain.jpg" class="packages-imgs" alt="Second Package" />
             <br><br>
-            <div class="text-1"> Destination : <label><mark style="color:white;background-color:#047ffc"> Spain</mark></label></div>
+            <div class="text-1"> Destination : <label id="lb_ds_6"><mark style="color:white;background-color:#047ffc"> Spain</mark></label></div>
             <br />
-            <div class="text-1"> Duration :<label><mark style="color:white;background-color:#047ffc"> 21 Days </mark></label> </div>
+            <div class="text-1"> Duration :<label id="lb_du_6"><mark style="color:white;background-color:#047ffc"> 21 Days </mark></label> </div>
             <br />
-            <div class="text-1"> Cost : <label><mark style="color:white;background-color:#047ffc"> 6100 $ </mark></label> </div>
+            <div class="text-1"> Cost : <label id="lb_co_6"><mark style="color:white;background-color:#047ffc"> 6100 $ </mark></label> </div>
 
             <div class="admin">
               <input type="text" name="destination6" placeholder="Destination">
@@ -184,11 +184,11 @@
           <div class="container-box-main">
             <img src="resources/japan.jpg" class="packages-imgs" alt="Third Package" />
             <br><br>
-            <div class="text-1"> Destination : <label><mark style="color:white;background-color:#047ffc"> Japan</mark></label></div>
+            <div class="text-1"> Destination : <label id="lb_ds_7"><mark style="color:white;background-color:#047ffc"> Japan</mark></label></div>
             <br />
-            <div class="text-1"> Duration :<label><mark style="color:white;background-color:#047ffc"> 15 Days </mark></label> </div>
+            <div class="text-1"> Duration :<label id="lb_du_7"><mark style="color:white;background-color:#047ffc"> 15 Days </mark></label> </div>
             <br />
-            <div class="text-1"> Cost : <label><mark style="color:white;background-color:#047ffc"> 3200 $ </mark></label> </div>
+            <div class="text-1"> Cost : <label id="lb_co_7"><mark style="color:white;background-color:#047ffc"> 3200 $ </mark></label> </div>
 
             <div class="admin">
               <input type="text" name="destination7" placeholder="Destination">
@@ -203,11 +203,11 @@
           <div class="container-box-main">
             <img src="resources/egypt.jpg" class="packages-imgs" alt="Forth Package" />
             <br><br>
-            <div class="text-1"> Destination : <label><mark style="color:white;background-color:#047ffc"> Egypt</mark></label></div>
+            <div class="text-1"> Destination : <label id="lb_ds_8"><mark style="color:white;background-color:#047ffc"> Egypt</mark></label></div>
             <br />
-            <div class="text-1"> Duration :<label><mark style="color:white;background-color:#047ffc"> 3 Days </mark></label> </div>
+            <div class="text-1"> Duration :<label id="lb_du_8" ><mark style="color:white;background-color:#047ffc"> 3 Days </mark></label> </div>
             <br />
-            <div class="text-1"> Cost : <label><mark style="color:white;background-color:#047ffc"> 300 $ </mark></label> </div>
+            <div class="text-1"> Cost : <label id="lb_co_8"><mark style="color:white;background-color:#047ffc"> 300 $ </mark></label> </div>
 
             <div class="admin">
               <input type="text" name="destination8" placeholder="Destination">
@@ -232,3 +232,181 @@
 
 
 </html>
+<?php
+
+$host = "localhost";
+ $dbUsername = "root";
+ $dbPassword = "";
+ $dbname = "customer";
+ $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
+ if (mysqli_connect_error()) {
+    die('Connect Error('. mysqli_connect_errno().')'. mysqli_connect_error());
+   } else {
+     for( $i=1;$i<=8;$i++){
+    $SELECT = "SELECT destination,duration,cost From places Where id = '$i' ";
+    $stmt=$conn->query($SELECT);
+    $destination;
+    $duration;
+    $cost;
+    while($row = $stmt->fetch_assoc()) {
+         $destination=$row["destination"];
+         $duration=$row["duration"];
+         $cost=$row["cost"];
+         $test= json_encode($destination);   
+         if($i==1){
+          
+          
+        echo  "   
+          <script type='text/javascript'>
+         
+
+           document.getElementById('lb_du_1').innerHTML=$duration;
+           document.getElementById('lb_co_1').innerHTML=$cost;
+           document.getElementById('lb_ds_1').innerHTML=$test;
+ 
+ 
+ 
+  
+          
+           </script>";
+
+         }else if($i==2){
+             
+        echo  "   
+        <script type='text/javascript'>
+       
+
+         document.getElementById('lb_du_2').innerHTML=$duration;
+         document.getElementById('lb_co_2').innerHTML=$cost;
+         document.getElementById('lb_ds_2').innerHTML=$test;
+
+
+
+
+        
+         </script>";
+
+
+
+          
+
+
+         }else if($i==3){
+                
+        echo  "   
+        <script type='text/javascript'>
+       
+
+         document.getElementById('lb_du_3').innerHTML=$duration;
+         document.getElementById('lb_co_3').innerHTML=$cost;
+         document.getElementById('lb_ds_3').innerHTML=$test;
+
+
+
+
+        
+         </script>";
+
+
+
+
+
+         }else if($i==4){
+               
+        echo  "   
+        <script type='text/javascript'>
+       
+
+         document.getElementById('lb_du_4').innerHTML=$duration;
+         document.getElementById('lb_co_4').innerHTML=$cost;
+         document.getElementById('lb_ds_4').innerHTML=$test;
+
+
+
+
+        
+         </script>";
+
+
+
+         }else if($i==5){
+          echo  "   
+          <script type='text/javascript'>
+         
+  
+           document.getElementById('lb_du_5').innerHTML=$duration;
+           document.getElementById('lb_co_5').innerHTML=$cost;
+           document.getElementById('lb_ds_5').innerHTML=$test;
+  
+  
+  
+  
+          
+           </script>";
+
+
+         }else if($i==6){
+          echo  "   
+          <script type='text/javascript'>
+         
+  
+           document.getElementById('lb_du_6').innerHTML=$duration;
+           document.getElementById('lb_co_6').innerHTML=$cost;
+           document.getElementById('lb_ds_6').innerHTML=$test;
+  
+  
+  
+  
+          
+           </script>";
+
+
+
+
+         }else if($i==7){
+          echo  "   
+          <script type='text/javascript'>
+         
+  
+           document.getElementById('lb_du_7').innerHTML=$duration;
+           document.getElementById('lb_co_7').innerHTML=$cost;
+           document.getElementById('lb_ds_7').innerHTML=$test;
+  
+  
+  
+  
+          
+           </script>";
+
+           
+         }else if($i==8){
+          echo  "   
+          <script type='text/javascript'>
+         
+  
+           document.getElementById('lb_du_8').innerHTML=$duration;
+           document.getElementById('lb_co_8').innerHTML=$cost;
+           document.getElementById('lb_ds_8').innerHTML=$test;
+  
+  
+  
+  
+          
+           </script>";
+
+
+
+
+         }
+        
+          
+        
+        
+       }
+        
+        }
+        
+      }
+
+      ?>
+
