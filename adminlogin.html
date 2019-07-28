@@ -2,10 +2,11 @@
 <html>
 
 <head>
-  <title>About Us</title>
+  <title>Login</title>
   <meta charset="utf-8">
   <!-- files import -->
-  <link href="css/about.css" rel='stylesheet' type='text/css' /> <!-- css file -->
+  <link href="css/login.css" rel='stylesheet' type='text/css' /> <!-- css file -->
+  
   <!-- //files import -->
 
 </head>
@@ -35,55 +36,31 @@
     </div>
     <nav>
       <ul>
+        
           <li class="book"><a href="adminlogin.html">Admin</a></li>
+          
         <li><a href="index.html">Home</a></li>
         <li><a href="packages.php">Packages</a></li>
-        <li><a href="login.html">Login</a></li>
+        <li><a href="login.html" class="color-override">Login</a></li>
         <li><a href="registration.html">Register</a></li>
         <li><a href="contact.html">Contact Us</a></li>
         <li class="book"><a href="top.html" class="color-override">Book Now</a> </li>
       </ul>
     </nav>
   </div>
+  <form name="loginForm" action="php/login.php" method="POST">
+    <div class="box">
+      <h1> Login </h1>
+      <input type="email" name="loginEmail" id="email_area" placeholder="Email" class="email" required />
+      <br>
+      <input type="password" name="loginPassword" id="password_area" placeholder="Password" class="password" required />
+      <a href="#"> <input type="submit" value="Log in" class="button1" onclick="check()"> </a>
+      <a href="signup.html"> <input type="submit" value="Sign up" class="button2"></a>
+    </div>
+    <p>Forgot your password? <u><a class="click-here" href="#">Click Here!</a></u></p>
+  </form>
 
-  <h1 class="main-text"> <mark style="color:white;background-color:#047ffc;">FCIS-ASU Summer Project</mark> </h1>
-  <a href="https://github.com/Shehab-Ahmed-Bassuone/Travel-Galaxy" target="_blank"> <img src="resources/GitHub-Logo.png" alt="GitHub" class="github"> </a>
-  <div class="form">
-
-    <span>
-      <div class="sub-form">
-        <h1 class="text-1">Ahmed AbdelGawad Farag</h1>
-        <h1 class="text-2" style="margin:10px 0px 0px 95px;"> Section 2 </h1>
-        <a href="https://www.facebook.com/ahmed.abdfarag" target="_blank"><img src="resources/facebook.png" alt="Facebook" /></a>
-      </div>
-    </span>
-
-    <span>
-      <div class="sub-form" style="width: 330px;">
-        <h1 class="text-1" style="margin-left:65px;">Shehab Ahmed</h1>
-        <h1 class="text-2" style="margin:10px 0px 0px 95px;"> Section 8 </h1>
-        <a href="https://www.facebook.com/people/Shehab-Ahmed/100010988716374" target="_blank"><img src="resources/facebook.png" alt="Facebook" style="margin-left:100px" /></a>
-      </div>
-    </span>
-
-    <span>
-      <div class="sub-form" style="width: 330px;">
-        <h1 class="text-1" style="margin-left:75px;">Ahmed Saad</h1>
-        <h1 class="text-2" style="margin:10px 0px 0px 95px;"> Section 2 </h1>
-        <a href="https://www.facebook.com/Ahmed503.as" target="_blank"><img src="resources/facebook.png" alt="Facebook" style="margin-left:100px" /></a>
-      </div>
-    </span>
-
-    <span>
-      <div class="sub-form" style="width: 320px; border:none;">
-        <h1 class="text-1" style="margin-left:75px;">Ibrahim Alaa</h1>
-        <h1 class="text-2" style="margin:10px 0px 0px 100px;"> Section 1 </h1>
-        <a href="https://www.facebook.com/ibrahim.alaanasr" target="_blank"><img src="resources/facebook.png" alt="Facebook" style="margin-left:100px" /></a>
-      </div>
-    </span>
-
-
-  </div>
 </body>
+<script src="js/adminlogin.js"></script>
 
 </html>
