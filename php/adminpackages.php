@@ -68,10 +68,14 @@ else if(isset( $_POST['button3'] )){
 
 }
 else if(isset( $_POST['button4'] )){
+    
     $destination=$_POST['destination4'];
     $duration=$_POST['duration4'];
     $cost=$_POST['cost4'];
-    $INSERT = "UPDATE places SET destination=?,duration=?,cost=? values( ?, ?,?) WHERE id = 4";
+    
+    $INSERT = "UPDATE places SET destination=?,duration=?,cost=?  WHERE id = 4";
+    $stmt = $conn->prepare($INSERT);
+
     $stmt->bind_param("sii", $destination, $duration, $cost);
     $stmt->execute();
     $stmt->close();
@@ -88,6 +92,8 @@ else if(isset( $_POST['button5'] )){
     $duration=$_POST['duration5'];
     $cost=$_POST['cost5'];
     $INSERT = "UPDATE places SET destination=?,duration=?,cost=?  WHERE id = 5";
+    $stmt = $conn->prepare($INSERT);
+
     $stmt->bind_param("sii", $destination, $duration, $cost);
     $stmt->execute();
     $stmt->close();
@@ -103,6 +109,8 @@ else if(isset( $_POST['button6'] )){
     $duration=$_POST['duration6'];
     $cost=$_POST['cost6'];
     $INSERT = "UPDATE places SET destination=?,duration=?,cost=?  WHERE id = 6";
+    $stmt = $conn->prepare($INSERT);
+
     $stmt->bind_param("sii", $destination, $duration, $cost);
     $stmt->execute();
     $stmt->close();
@@ -118,6 +126,8 @@ else if(isset( $_POST['button7'] )){
     $duration=$_POST['duration7'];
     $cost=$_POST['cost7'];
     $INSERT = "UPDATE places SET destination=?,duration=?,cost=?  WHERE id = 7";
+    $stmt = $conn->prepare($INSERT);
+
     $stmt->bind_param("sii", $destination, $duration, $cost);
     $stmt->execute();
     $stmt->close();
@@ -132,6 +142,8 @@ else if(isset( $_POST['button8'] )){
     $duration=$_POST['duration8'];
     $cost=$_POST['cost8'];
     $INSERT = "UPDATE places SET destination=?,duration=?,cost=?  WHERE id = 8";
+    $stmt = $conn->prepare($INSERT);
+
     $stmt->bind_param("sii", $destination, $duration, $cost);
     $stmt->execute();
     $stmt->close();
