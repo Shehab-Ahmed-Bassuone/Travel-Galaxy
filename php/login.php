@@ -4,7 +4,7 @@
     $password=$_POST['loginPassword'];
     if($email=="admin@admin"&&$password=="admin"){
       echo "<script> alert('Welcome admin'); 
-      location.replace('../adminpackages.html');
+      location.replace('../adminpackages.php');
       
       </script>";
 
