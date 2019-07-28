@@ -1,29 +1,23 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
   background-image: url("../resources/main.jpg");
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  margin: 0px 0px 0px 0px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-obacity {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
-  height: 100%;
+  height: calc(100% + 680px);
   z-index: -1;
-}
-
-.click-here {
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-left: 4px;
-  color: white;
-}
-
-.click-here:hover {
-  color: blue;
 }
 
 .header {
@@ -59,7 +53,7 @@ nav ul li {
   display: inline;
   float: left;
   display: initial;
-  margin-top: -15px;
+  margin-top: -0px;
   margin-left: 200px;
   letter-spacing: 3px;
   color: #fff;
@@ -97,4 +91,85 @@ nav li.book {
 .color-override {
   color: white;
   font-weight: bold;
+}
+
+.logo-img {
+  margin-left: 550px;
+}
+
+form {
+  width: 100%;
+  float: right;
+  position: relative;
+  margin-top: 40px;
+}
+
+.sub-container {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+.container-box-main {
+  background: white;
+  border-radius: 6px;
+  border: #2980b9 4px solid;
+  width: 300px;
+  height: 490px;
+  display: inline-block;
+  float: right;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+
+.packages-imgs {
+  width: 290px;
+  height: 200px;
+  background-position: center;
+  border-color: #2980b9;
+  border-width: 2px;
+  border-style: outset;
+  margin: 5px 5px 5px 3px;
+}
+
+/* main info*/
+.text-1 {
+  font-family: sans-serif;
+  margin-left: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* for more info parag */
+.text-2 {
+  color: white;
+  margin-left: 75px;
+  margin-top: 7px;
+}
+
+label {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.discount {
+  font-size: 35px;
+  margin-left: 270px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  color: white;
+  font-weight: lighter;
+  font-family: serif;
+}
+
+.admin {
+  height: 50px;
+  width: 210px;
+  margin: 18px 0px 0px 50px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  margin-top: 5px;
 }
