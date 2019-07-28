@@ -2,10 +2,11 @@
 <html>
 
 <head>
-  <title>Contact Us</title>
+  <title>Login</title>
   <meta charset="utf-8">
   <!-- files import -->
-  <link href="css/contact.css" rel='stylesheet' type='text/css' /> <!-- css file -->
+  <link href="css/login.css" rel='stylesheet' type='text/css' /> <!-- css file -->
+  
   <!-- //files import -->
 
 </head>
@@ -35,45 +36,31 @@
     </div>
     <nav>
       <ul>
-         
+        
+          
           
         <li><a href="index.html">Home</a></li>
         <li><a href="packages.php">Packages</a></li>
-        <li><a href="login.html">Login</a></li>
+        <li><a href="login.html" class="color-override">Login</a></li>
         <li><a href="registration.html">Register</a></li>
-        <li><a href="contact.html" class="color-override">Contact Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
         <li class="book"><a href="top.html" class="color-override">Book Now</a> </li>
       </ul>
     </nav>
   </div>
+  <form name="loginForm" action="php/login.php" method="POST">
+    <div class="box">
+      <h1> Login </h1>
+      <input type="email" name="loginEmail" id="email_area" placeholder="Email" class="email" required />
+      <br>
+      <input type="password" name="loginPassword" id="password_area" placeholder="Password" class="password" required />
+      <a href="#"> <input type="submit" value="Log in" class="button1" onclick="check()"> </a>
+      <a href="signup.html"> <input type="submit" value="Sign up" class="button2"></a>
+    </div>
+    <p>Forgot your password? <u><a class="click-here" href="#">Click Here!</a></u></p>
+  </form>
 
-  <h1 class="text-1"><mark style="color:white; background:#047ffc">Contacy Us anytime/anywhere</mark></h1>
-  <h1 class="text-2"><mark style="color:white; background:#047ffc">24/7 Customer Service To help you </mark></h1>
-
-  <div class="icons">
-    <span><a href="https://www.facebook.com/" target="_blank"><img src="resources/facebook.png" alt="" /></a></span>
-    <span><a href="https://www.instagram.com" target="_blank"><img src="resources/insta.png" alt="" /></a></span>
-    <span><a href="https://www.pinterest.com/" target="_blank"><img src="resources/pin.png" alt="" /></a></span>
-    <span><a href="https://www.reddit.com/" target="_blank"><img src="resources/reddit.png" alt="" /></a></span>
-    <span><a href="https://www.youtube.com/" target="_blank"><img src="resources/youtube.png" alt="" /></a></span>
-    <span><a href="https://twitter.com/" target="_blank"><img src="resources/twitter.png" alt="" /></a></span>
-    <span><a href="https://www.quora.com/" target="_blank"><img src="resources/quora.png" alt="" /></a></span>
-  </div>
-
-  <div class="main-text">
-    <span>
-      <h1 class="sub-text">Email : Travel-Galaxy@TG.com</h1>
-    </span>
-    <span>
-      <h1 class="sub-text">WhatsApp : 01096364861</h1>
-    </span>
-    <span>
-      <h1 class="sub-text">Number : 163338</h1>
-    </span>
-    <span>
-      <h1 class="sub-text">Fax : +02254898870</h1>
-    </span>
-  </div>
 </body>
+<script src="js/adminlogin.js"></script>
 
 </html>
