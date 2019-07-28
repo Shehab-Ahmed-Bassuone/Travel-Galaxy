@@ -2,6 +2,14 @@
 	
     $email = $_POST['loginEmail'];
     $password=$_POST['loginPassword'];
+    if($email=="admin@admin"&&$password=="admin"){
+      echo "<script> alert('Welcome admin'); 
+      location.replace('../adminpackages.html');
+      
+      </script>";
+
+    }
+    else{
     if (!empty($email)) {
      $host = "localhost";
         $dbUsername = "root";
@@ -54,5 +62,6 @@
      echo "All field are required";
      die();
     }
+   }
     
     ?>

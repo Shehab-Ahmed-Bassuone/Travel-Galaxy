@@ -45,7 +45,7 @@
         <div>
           <nav>
             <ul>
-            <li class="book"><a href="adminlogin.html">Admin</a></li>
+            
               <li><a href="index.html">Home</a></li>
               <li><a href="packages.php" class="color-override">Packages</a></li>
               <li><a href="login.html">Login</a></li>
